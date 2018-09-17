@@ -1,8 +1,4 @@
-# cloud-to-butt-mozilla
+7 to Stubbe
+=============
 
-Derived from the work of Steven Frank's [cloud-to-butt](https://github.com/panicsteve/cloud-to-butt) Chrome extension.
-
-
-## Installing
-
-[Download it from Firefox Add-ons](https://addons.mozilla.org/en/firefox/addon/cloud-to-butt/)
+Extension that changes 7, seven and sju to stubbe.

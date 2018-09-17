@@ -27,15 +27,27 @@
         }
     }
     
-    function handleText(textNode)
-    {
+    function handleText(textNode) {
         var v = textNode.nodeValue;
     
-        v = v.replace(/\bThe Cloud\b/g, "My Butt");
-        v = v.replace(/\bThe cloud\b/g, "My butt");
-        v = v.replace(/\bthe Cloud\b/g, "my Butt");
-        v = v.replace(/\bthe cloud\b/g, "my butt");
+      // Deal with swedish
+      v = v.replace(/(S|s)ju/g, function(match, p1, offset, string) {
+        s = String.fromCharCode(p1.charCodeAt(0));
+        return s + "tubbe";
+      });
+      
+      // Deal with english
+      v = v.replace(/(S|s)even/g, function(match, p1, offset, string) {
+        s = String.fromCharCode(p1.charCodeAt(0));
+        return s + "tubbe";
+      });
     
+      // Deal with numbers in the begining of sentences
+      v = v.replace(/^7/gm, "Stubbe");
+    
+      // Deal with numbers otherwise
+      v = v.replace(/7/g, "stubbe");
+      
         textNode.nodeValue = v;
     }
 

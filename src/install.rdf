@@ -7,11 +7,11 @@
     <em:type>2</em:type>
 
     <!-- Extension details -->
-    <em:name>Cloud To Butt</em:name>
-    <em:description>Replaces the text 'the cloud' with 'my butt'.</em:description>
+    <em:name>7 To Stubbe</em:name>
+    <em:description>Replaces the text '7' with 'stubbe'.</em:description>
     <em:creator>Steven Frank</em:creator>
     <em:developer>Chris Wright</em:developer>
-    <em:homepageURL>https://github.com/DaveRandom/cloud-to-butt-mozilla</em:homepageURL>
+    <em:homepageURL>https://github.com/Fexilus/7-to-stubbe-mozilla</em:homepageURL>
 
     <!-- Current version -->
     <em:version>1.0</em:version>
