@@ -65,6 +65,8 @@ function handleText(textNode) {
     textNode.nodeValue = v;
 }
 
+walk(document.body);
+
 window.addEventListener("load", function(event) {
     walk(document.body);
 });
